@@ -2,7 +2,8 @@ import logo from "./logo.svg";
 import "./App.css";
 import UserInfoContext from "./context/UserInfoContext";
 import BlogPage from "./components/BlogPage";
-function App() {
+
+export default function App() {
   const userInfo = {
     username: "Admin",
     isAdmin: "true",
@@ -14,5 +15,3 @@ function App() {
     </UserInfoContext.Provider>
   );
 }
-
-export default App;
